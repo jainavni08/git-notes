@@ -10,3 +10,7 @@ git pull origin main
 git push origin main
 
 git clone
+
+git branch branch_name -- create a branch 
+git checkout branch_name -- check branches
+

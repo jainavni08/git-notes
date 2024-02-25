@@ -12,5 +12,8 @@ git push origin main
 git clone
 
 git branch branch_name -- create a branch 
-git checkout branch_name -- check branches
+git checkout branch_name -- check branches or move to some other branch
+
+
+
 

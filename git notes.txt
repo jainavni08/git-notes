@@ -3,3 +3,10 @@
 3.working area-normal folder and files NOT CARED by git
 4.tracked area-folder and files GIT KNOWS ABOUT
 5.staging area-folders and files GIT WILL UPLOAD.
+
+git add .
+git commit -m "message here"
+git pull origin main
+git push origin main
+
+git clone

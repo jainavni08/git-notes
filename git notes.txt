@@ -1,18 +1,100 @@
-1.git init
-2.git status
-3.working area-normal folder and files NOT CARED by git
-4.tracked area-folder and files GIT KNOWS ABOUT
-5.staging area-folders and files GIT WILL UPLOAD.
+source:https://youtu.be/apGV9Kg7ics?si=Lt2icpYFR4o66BGz
 
-git add .
-git commit -m "message here"
-git pull origin main
+git init--->make .git file (initialize git )
+
+git status
+
+ working area-	normal folder and files NOT CARED by git
+ tracked area-	folder and files GIT KNOWS ABOUT
+ staging area-	folders and files GIT WILL UPLOAD.
+
+git add . ---->add files into staging area
+
+git commit -m "message here" ---->just like saveing changes 
+
+git pull origin main 
+
 git push origin main
 
-git clone
+git clone ----> copy 
 
+-------------------------------------------------------------------------------------------
+
+HOW TO CREATE BRANCH ?
 git branch branch_name -- create a branch 
 git checkout branch_name -- check branches or move to some other branch
+
+-------------------------------------------------------------------------------------------
+
+git restore ----->staged names.txt
+
+git log -----> show history
+
+-------------------------------------------------------------------------------------------
+HOW TO DELETE ?
+git reset hashcode
+git add . 
+git stash ------> keeping code in back area
+//git stash pop -------> calling them again//
+
+-------------------------------------------------------------------------------------------
+
+git remote add origin url
+git push origin(url or name given to the url) main(branch name)
+
+-------------------------------------------------------------------------------------------
+
+How to make Pull Request ?
+
+Step-1: git remote add upstream url(of original repo)
+        git remote add origin url(of your own forked repo)
+  
+Step-2: git branch name
+        git checkout name
+      **make required changes**
+        git add .
+        git commit
+
+Step-3: git push origin tutu(branch in which changes are made)
+
+!!! REMEMBER - ONE PR , ONE CHANGE , ONE BRANCH !!!
+
+-------------------------------------------------------------------------------------------
+
+How to merge ?
+ git pull origin main
+ git checkout main
+ git merge branch1
+ git push -u origin main
+
+-------------------------------------------------------------------------------------------
+
+How to sync?
+
+button-fetch upsream
+
+Step-1: git fetch --all --prune
+Step-2: git rest --hard upstream/main
+Step-3: git push origin main
+
+*ANOTHER METHOD*
+git pull upstream main
+
+-------------------------------------------------------------------------------------------
+
+MERGING COMMITS-git rebase -i hashcode
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
